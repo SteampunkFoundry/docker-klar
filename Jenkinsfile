@@ -2,8 +2,8 @@ def label = "ImageBuildPod-${UUID.randomUUID().toString()}"
 
 properties([
   parameters([
-    string(name: 'klar_version', defaultValue: '2.4.0')
-    string(name: 'alpine_version', defaultValue: '3.12'),
+    string(name: 'klar_version', defaultValue: '2.4.0'),
+    string(name: 'alpine_version', defaultValue: '3.12')
   ])
 ])
 
