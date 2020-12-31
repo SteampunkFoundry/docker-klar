@@ -25,4 +25,4 @@ is failing to build due to changes in v4 of [quay/clair](https://github.com/quay
 executor failed running [/bin/sh -c go get -d github.com/optiopay/klar]: exit code: 1
 ```
 
-The `coreos/clair/database` module does not exist in Clair v4.
+The `coreos/clair/database` module does not exist in Clair v4 but existed in v2.
