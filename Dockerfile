@@ -1,4 +1,4 @@
-ARG alpine_version=3.12
+ARG alpine_version=3.13.5
 FROM alpine:${alpine_version}
 ARG klar_version=2.4.0
 
