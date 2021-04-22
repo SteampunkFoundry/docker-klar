@@ -8,7 +8,7 @@ RUN wget -nv https://github.com/optiopay/klar/releases/download/v${klar_version}
 RUN apk del --no-cache wget
 
 HEALTHCHECK NONE
-RUN adduser --shell /bin/bash klar
+RUN adduser --disabled-password --shell /bin/bash klar
 USER klar
 
 ENTRYPOINT ["/klar"]
